@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'IndexController@index');
+
+Route::post('/', 'UserController@profileStore')->name('profile.store');
+
+Route::get('/{nickname}', 'IndexController@currentUser')->name('currentUser');

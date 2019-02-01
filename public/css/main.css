@@ -45,6 +45,15 @@ body{
   padding: 20px;
 }
 
+.article_list{
+  margin-right: 50px;
+  padding: 10px;
+  width: 300px;
+  height: 100%;
+  background-color: #ececec;
+  border: 1px solid rgb(221, 221, 221);
+}
+
 .avatar{
   min-width: 150px;
   height: 150px;
